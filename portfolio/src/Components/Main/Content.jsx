@@ -22,8 +22,8 @@ function Content() {
             </div>
             <div>
                 <p>Kontakt info:</p>
-                <p><a href="mailto:philip@kode4.dk">philip@kode4.dk</a></p>
-                <p><a href="tel:+4522966016"></a></p>
+                <p><a href="mailto:philip@kode4.dk">📧</a></p>
+                <p><a href="tel:+4522966016">☎️</a></p>
             </div>
         </div>
         <Footer />
