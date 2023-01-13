@@ -2,6 +2,10 @@
 .mainSection{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    div{
+      height: 100%;  
+    }
+    
 }
 h1{
     font-size: 40px;
@@ -12,7 +16,10 @@ h5{
 }
 .mainGrid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .buttons{
@@ -35,9 +42,8 @@ h5{
 }
 
 .contact{
+    
     span{
-        display: flex;
-        justify-content: left;
         p{
             margin-top: 0;
             padding-right: 1vw;

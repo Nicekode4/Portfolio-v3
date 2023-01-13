@@ -12,19 +12,12 @@ function Content() {
             <button type='button'>Projekter <span>⭷</span></button>        
         </div>
         <div className='mainGrid'>
-            <div>
-                <p>+84</p>
-                <p>Clients</p>
-            </div>
-            <div></div>
-            <div>
-                <p>+84</p>
-                <p>Clients</p>
-            </div>
             <div className='contact'>
                 <p>Kontakt info:</p>
-                <span>                <p><a href="mailto:philip@kode4.dk">📧</a></p>
-                <p><a href="tel:+4522966016">☎️</a></p></span>
+                <span>                
+                <p><a href="mailto:philip@kode4.dk">📧</a></p>
+                <p><a href="tel:+4522966016">☎️</a></p>
+                </span>
 
             </div>
         </div>

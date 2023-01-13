@@ -10,4 +10,15 @@ footer{
         color: white;
         padding: 1vh;
     }
+
+    article:first-of-type{
+        margin-left: 2vw;
+    }
+    article:last-of-type{
+
+          h4{
+            width: 50%;
+border-bottom: white 1px solid;    }  
+    }
+
 }
