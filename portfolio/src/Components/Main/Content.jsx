@@ -4,11 +4,11 @@ import Footer from '../Footer/Footer'
 function Content() {
   return (
     <section>
-        <h1>Hejsa! Jeg er PH</h1>
+        <h1>Hejsa! Jeg hedder Philip</h1>
         <h5>Selvudlært webudwikler med <span>7 års</span> erfaring</h5>
 
         <div className='buttons'>
-            <button type='button'>Indhent tilbud</button>
+            <button type='button'>Få et tilbud</button>
             <button type='button'>Projekter <span>⭷</span></button>        
         </div>
         <div className='mainGrid'>
