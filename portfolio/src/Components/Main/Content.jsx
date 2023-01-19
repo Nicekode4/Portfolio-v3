@@ -8,8 +8,8 @@ function Content() {
         <h5>Selvudlært webudwikler med <span>7 års</span> erfaring</h5>
 
         <div className='buttons'>
-            <button type='button'>Få et tilbud</button>
-            <button type='button'>Projekter <span>⭷</span></button>        
+            <a href="http://lel">Få et tilbud</a>
+            <a href='projekter' >Projekter <span>⭷</span></a>        
         </div>
         <div className='mainGrid'>
             <div className='contact'>

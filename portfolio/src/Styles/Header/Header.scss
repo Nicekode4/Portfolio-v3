@@ -3,10 +3,21 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
     padding: 2vh;
     nav{
+       
         list-style: none;
         display: flex;
         justify-content: space-evenly;
         padding-top: 4vh;
+        
+        li{
+            a{
+            text-decoration: none;
+            color: black;
+            border: 2px solid;
+            padding: 1vh;
+            font-size: 20px;
+        }
+        }
     }
     img{
         height: 100%;
@@ -16,17 +27,14 @@ header{
      
     }
 
-    button{
-        width: 10vw;
-        height: 5vh;
-        margin-left: 5vw;
-        margin-top: 2vh;
-        vertical-align: middle;
-        background-color: rgba(255, 255, 255, 0);
-        border-color: black;
-        border-style: solid;
-        border-width: 2px;
-        
+.active{
+    color: rgb(0, 0, 0);
+    border-top: none;
+    border-right: none;
+    span{
+        display: block;
+        font-size: 50px;
     }
-
+    
+}
 }

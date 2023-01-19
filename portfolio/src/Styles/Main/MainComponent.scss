@@ -25,8 +25,9 @@ h5{
 .buttons{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 10vh;
-    button:first-of-type{
+    a:first-of-type{
         background-color: blue;
         border: 0;
         padding: 1vw;
@@ -34,11 +35,22 @@ h5{
         color: white;
         font-weight: 500;
         font-size: 20px;
+        text-decoration: none;
     }
-    button:last-of-type{
+    a:last-of-type{
         background-color: rgba(255, 255, 255, 0);
         border: 0;
         font-size: 20px;
+        text-decoration: none;
+        color: black;
+    }
+    a:last-of-type:hover{
+        font-size: 22px;
+        transition: 500ms;
+    }
+    a:first-of-type:hover{
+        font-size: 20px;
+        background-color: rgba(0, 0, 255, 0.649);
     }
 }
 

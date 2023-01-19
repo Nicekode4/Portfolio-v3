@@ -23,12 +23,18 @@ border-bottom: white 1px solid;    }
     }
 div{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     width: 100%;
     p{
     
     margin-right: 2vw;  
     }
  
+}
+img{
+    width: 2vw;
+    height: 4vh;
+    margin: 1vh;
+   // background-color: white;
 }
 }

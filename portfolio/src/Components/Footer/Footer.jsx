@@ -13,10 +13,9 @@ function Footer() {
             <h4>Websites: <span>75</span></h4>
         </article>
         <div>
-          <p>Github</p>
-          <p>Github</p>
-          <p>Github</p>
-          <p>Github</p>
+          <a href="http://"><img src={require("../../Images/github.png")} alt="" /></a>
+          <a href='title'><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="" /></a>
+          <a href="http://"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="" /></a>
         </div>
     </footer>
   )
