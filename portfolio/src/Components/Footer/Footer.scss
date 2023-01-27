@@ -1,14 +1,17 @@
+@use "../../subStyles/_colors" as *;
+@use "../../subStyles/_fonts" as *;
+
 footer{
-    background-color: rgb(31, 31, 31);
-    color: white;
+    background-color: rgb(55, 53, 53);
+    color: $white;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 15vh;
     button{
-        background-color: blue;
+        background-color: $blue;
         border: none;
         font-size: 25px;
-        color: white;
+        color: $white;
         padding: 1vh;
     }
 

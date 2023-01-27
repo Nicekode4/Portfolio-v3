@@ -2,7 +2,10 @@ import React from 'react'
 
 function Img() {
   return (
-    <img src={require("../../Images/profil.jpg")} alt="" />
+    
+     <img src={require("../../Images/profil.jpg")} alt="" /> 
+
+    
   )
 }
 

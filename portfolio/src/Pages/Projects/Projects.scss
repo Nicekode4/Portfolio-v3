@@ -1,0 +1,30 @@
+@use "../../subStyles/_colors" as *;
+@use "../../subStyles/_fonts" as *;
+
+.container {
+    position: relative;
+    font-family: Arial;
+    width: fit-content;
+    
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: $white;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: fit-content;
+    width: fit-content;
+  }
+.projectSection{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+ grid-gap: 2vh;
+}
+  img{
+    width: 100%;
+  }

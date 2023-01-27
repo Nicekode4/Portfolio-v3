@@ -1,3 +1,6 @@
+@use "../../subStyles/_colors" as *;
+@use "../../subStyles/_fonts" as *;
+
 header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -7,12 +10,12 @@ header{
         list-style: none;
         display: flex;
         justify-content: space-evenly;
-        padding-top: 4vh;
+        margin-top: 5vh;
         
         li{
             a{
             text-decoration: none;
-            color: black;
+            color: $white;
             border: 2px solid;
             padding: 1vh;
             font-size: 20px;
@@ -21,14 +24,14 @@ header{
     }
     img{
         height: 100%;
-        width: 30%;
+        width: 20%;
         margin-left: 10vw;
-        aspect-ratio: 4 / 3;
+        
      
     }
 
 .active{
-    color: rgb(0, 0, 0);
+    color: $white;
     border-top: none;
     border-right: none;
     span{

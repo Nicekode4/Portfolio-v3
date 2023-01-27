@@ -1,17 +1,22 @@
+@use "../../subStyles/_colors" as *;
+@use "../../subStyles/_fonts" as *;
 @use "./Img.scss";
 .mainSection{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border-top: black 1px solid;
+    border-top: $black 1px solid;
+    
 }
 h1{
     font-size: 40px;
     text-align: center;
     margin-top: 10vh;
+    color: $white;
 }
 h5{
     text-align: center;
     margin-bottom: 10vh;
+    color: $white;
 }
 .mainGrid{
     display: grid;
@@ -19,6 +24,7 @@ h5{
     text-align: center;
     padding-left: 10vw;
     padding-right: 10vw;
+    
     
 }
 
@@ -28,11 +34,11 @@ h5{
     align-items: center;
     margin-bottom: 10vh;
     a:first-of-type{
-        background-color: blue;
+        background-color: $blue;
         border: 0;
         padding: 1vw;
         margin: 1vw;
-        color: white;
+        color: $white;
         font-weight: 500;
         font-size: 20px;
         text-decoration: none;
@@ -42,7 +48,7 @@ h5{
         border: 0;
         font-size: 20px;
         text-decoration: none;
-        color: black;
+        color: $white;
     }
     a:last-of-type:hover{
         font-size: 22px;
@@ -55,12 +61,18 @@ h5{
 }
 
 .contact{
-    
+    color: $white;
     span{
+        
         p{
             margin-top: 0;
             padding-right: 1vw;
             font-size: 35px;
+            color: $white;
+            a{
+                text-decoration: none;
+            }
+            
         }
     }
 }

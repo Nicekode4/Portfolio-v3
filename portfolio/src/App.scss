@@ -1,3 +1,18 @@
-@use "./Styles/Header/Header.scss";
-@use "./Styles/Footer/Footer.scss";
-@use "./Styles/Main/MainComponent.scss";
+@use "./Components/Header/Header.scss";
+@use "./Components/Footer/Footer.scss";
+@use "./Components/Main/MainComponent.scss";
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-image: url("https://images.unsplash.com/photo-1634154369165-cadcd9af7100?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=741&q=80");
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+}

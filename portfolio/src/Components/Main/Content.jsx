@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import Footer from '../Footer/Footer'
 
 function Content() {
@@ -9,7 +10,7 @@ function Content() {
 
         <div className='buttons'>
             <a href="http://lel">Få et tilbud</a>
-            <a href='projekter' >Projekter <span>⭷</span></a>        
+            <NavLink to="/projekter">Projekter <span>⭷</span></NavLink>        
         </div>
         <div className='mainGrid'>
             <div className='contact'>
