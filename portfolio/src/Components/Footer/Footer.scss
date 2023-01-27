@@ -64,7 +64,7 @@ img{
     
         article:first-of-type{
             margin-left: 2vw;
-            
+            display: block;
         }
         article:last-of-type{
     
@@ -74,7 +74,7 @@ img{
         }
     div{
         display: flex;
-        justify-content: left;
+        justify-content: center;
         width: 100%;
         margin-left: 3vw;
         p{
@@ -84,8 +84,8 @@ img{
      
     }
     img{
-        width: 2vw;
-        height: 4vh;
+        width: 10vw;
+        height: 5vh;
         margin-right: 3vh;
         margin-bottom: 1vh;
        // background-color: white;
