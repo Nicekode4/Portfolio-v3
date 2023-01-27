@@ -1,43 +1,100 @@
 @use "../../subStyles/_colors" as *;
 @use "../../subStyles/_fonts" as *;
 
-header{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 2vh;
-    nav{
-       
-        list-style: none;
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 5vh;
-        
-        li{
-            a{
-            text-decoration: none;
-            color: $white;
-            border: 2px solid;
-            padding: 1vh;
-            font-size: 20px;
+@media screen and (min-width: 923px) {
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 2vh;
+        nav{
+           
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 5vh;
+            
+            li{
+                a{
+                text-decoration: none;
+                color: $white;
+                border: 2px solid;
+                padding: 1vh;
+                font-size: 20px;
+            }
+            }
         }
+        img{
+            height: 100%;
+            width: 20%;
+            margin-left: 10vw;
+            
+         
         }
-    }
-    img{
-        height: 100%;
-        width: 20%;
-        margin-left: 10vw;
-        
-     
-    }
-
-.active{
-    color: $white;
-    border-top: none;
-    border-right: none;
-    span{
-        display: block;
-        font-size: 50px;
-    }
     
-}
-}
+    .active{
+        color: $white;
+        border-top: none;
+        border-right: none;
+        span{
+            display: block;
+            font-size: 50px;
+        }
+        
+    }
+    }
+  }
+  
+  /* Mobile */
+  @media screen and (max-width: 922px) {
+    header{
+        display: grid;
+        grid-template-columns: 1fr;
+
+        nav{
+           text-align: center;
+            list-style: none;
+            display: block;
+            
+            margin-top: 5vh;
+            
+            li{
+                margin-top: 2vh;
+                color: $white;
+                border: 2px solid;
+                border-left: none;
+                border-right: none;
+                padding: 1vh;
+                font-size: 20px;
+                width: 100%;
+                
+                a{
+                text-decoration: none;
+                color: $white;
+
+            }
+            }
+        }
+        img{
+            display: flex;
+            justify-self: center;
+            height: 100%;
+            width: 30%;
+            margin-top: 2vh;
+            
+         
+        }
+    
+    .active{
+        color: white;
+        border-right: 2px solid;
+        padding-right: 1vw;
+        border-top: none
+        span{
+            display: block;
+            font-size: 50px;
+        }
+        
+    }
+    }
+  }
+

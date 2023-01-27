@@ -1,6 +1,7 @@
 @use "../../subStyles/_colors" as *;
 @use "../../subStyles/_fonts" as *;
 
+@media screen and (min-width: 923px) {
 footer{
     background-color: rgb(55, 53, 53);
     color: $white;
@@ -28,6 +29,7 @@ div{
     display: flex;
     justify-content: left;
     width: 100%;
+    margin-left: 3vw;
     p{
     
     margin-right: 2vw;  
@@ -37,7 +39,57 @@ div{
 img{
     width: 2vw;
     height: 4vh;
-    margin: 1vh;
+    margin-right: 3vh;
+    margin-bottom: 1vh;
    // background-color: white;
 }
 }
+  }
+  
+  /* Mobile */
+  @media screen and (max-width: 922px) {
+    footer{
+        background-color: rgb(55, 53, 53);
+        color: $white;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 15vh;
+        button{
+            background-color: $blue;
+            border: none;
+            font-size: 25px;
+            color: $white;
+            padding: 1vh;
+        }
+    
+        article:first-of-type{
+            margin-left: 2vw;
+            
+        }
+        article:last-of-type{
+    
+              h4{
+                width: 50%;
+    border-bottom: white 1px solid;    }  
+        }
+    div{
+        display: flex;
+        justify-content: left;
+        width: 100%;
+        margin-left: 3vw;
+        p{
+        
+        margin-right: 2vw;  
+        }
+     
+    }
+    img{
+        width: 2vw;
+        height: 4vh;
+        margin-right: 3vh;
+        margin-bottom: 1vh;
+       // background-color: white;
+    }
+    }
+  }
+

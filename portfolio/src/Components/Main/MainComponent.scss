@@ -1,6 +1,8 @@
 @use "../../subStyles/_colors" as *;
 @use "../../subStyles/_fonts" as *;
 @use "./Img.scss";
+
+@media screen and (min-width: 923px) {
 .mainSection{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -73,6 +75,83 @@ h5{
                 text-decoration: none;
             }
             
+        }
+    }
+}
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 922px) {
+    .mainSection{
+        display: block;
+        grid-template-columns: 1fr;
+        border-top: $black 1px solid;
+        
+    }
+    h1{
+        font-size: 40px;
+        text-align: center;
+        color: $white;
+    }
+    h5{
+        text-align: center;
+        margin-bottom: 10vh;
+        color: $white;
+    }
+    .mainGrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        
+        
+    }
+    
+    .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10vh;
+        a:first-of-type{
+            background-color: $blue;
+            border: 0;
+            padding: 1vw;
+            margin: 1vw;
+            color: $white;
+            font-weight: 500;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        a:last-of-type{
+            background-color: rgba(255, 255, 255, 0);
+            border: 0;
+            font-size: 20px;
+            text-decoration: none;
+            color: $white;
+        }
+        a:last-of-type:hover{
+            font-size: 22px;
+            transition: 500ms;
+        }
+        a:first-of-type:hover{
+            font-size: 20px;
+            background-color: rgba(0, 0, 255, 0.649);
+        }
+    }
+    
+    .contact{
+        color: $white;
+        span{
+            
+            p{
+                margin-top: 0;
+                padding-right: 1vw;
+                font-size: 35px;
+                color: $white;
+                a{
+                    text-decoration: none;
+                }
+                
+            }
         }
     }
 }
