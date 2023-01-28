@@ -85,7 +85,6 @@ h5{
     .mainSection{
         display: block;
         grid-template-columns: 1fr;
-        border-top: $black 1px solid;
         
     }
     h1{
@@ -107,7 +106,7 @@ h5{
     }
     
     .buttons{
-        display: flex;
+        display: grid;
         justify-content: center;
         align-items: center;
         margin-bottom: 10vh;
@@ -115,17 +114,19 @@ h5{
             display: block;
             background-color: $blue;
             border: 0;
-            padding: 1vw;
+            padding: 2vw;
             margin: 1vw;
             color: $white;
             font-weight: 500;
-            font-size: 20px;
+            font-size: 30px;
             text-decoration: none;
         }
         a:last-of-type{
             background-color: rgba(255, 255, 255, 0);
             border: 0;
-            font-size: 20px;
+            padding-left: 2vw;
+            margin-top: 3vh;
+            font-size: 30px;
             text-decoration: none;
             color: $white;
         }
@@ -141,12 +142,13 @@ h5{
     
     .contact{
         color: $white;
+        font-size: 30px;
         span{
             
             p{
                 margin-top: 0;
                 padding-right: 1vw;
-                font-size: 35px;
+                font-size: 50px;
                 color: $white;
                 a{
                     text-decoration: none;

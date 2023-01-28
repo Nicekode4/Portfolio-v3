@@ -55,24 +55,27 @@
             list-style: none;
             display: block;
             
-            margin-top: 5vh;
-            
             li{
-                margin-top: 2vh;
+                
                 color: $white;
-                border: 2px solid;
-                border-left: none;
-                border-right: none;
-                padding: 1vh 0vh 1vh 0vh;
+                border-top: 2px solid;
+                padding: 1.5vh 0vh 1.5vh 0vh;
                 font-size: 20px;
                 width: 100%;
-                
+            
                 a{
                 text-decoration: none;
                 color: $white;
 
             }
             }
+            li:first-of-type{
+                margin-top: 5vh;
+                }
+                li:last-of-type{
+                   border-bottom: solid white 2px;
+                   
+                }
         }
         img{
             display: flex;
@@ -81,19 +84,13 @@
             width: 30%;
             margin-top: 2vh;
             
-         
         }
     
     .active{
         color: white;
-        border-right: 2px solid;
-        padding-right: 1vw;
+        border-bottom: 2px solid;
+        border-top-style:groove;
         border-top: none
-        span{
-            display: block;
-            font-size: 50px;
-        }
-        
     }
     }
   }
