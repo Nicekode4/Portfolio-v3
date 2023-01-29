@@ -2,23 +2,29 @@
 @use "../../subStyles/_fonts" as *;
 
 @media screen and (min-width: 923px) {
+  h2{
+    margin-left: 1vw;
+    font-size: 40px;
+    color: $white;
+  }
 .container {
     position: relative;
     font-family: Arial;
     width: fit-content;
-    
+    padding-left: 1vw;
+    padding-right: 1vw;
   }
   
   .text-block {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     right: 20px;
     background-color: black;
     color: $white;
     padding-left: 20px;
     padding-right: 20px;
     height: fit-content;
-    width: fit-content;
+    width: 20vw;
   }
 .projectSection{
   display: grid;
@@ -26,12 +32,64 @@
   justify-items: center;
  grid-gap: 2vh;
 }
-  img{
+  .projectImg{
+    height: fit-content;
     width: 100%;
+  }
+  progress{
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    width: 100%;
+  }
+  label{
+    text-align: center;
+    display: block;
   }
 }
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 922px) {
-
+  h2{
+    margin-left: 1vw;
+    font-size: 40px;
+    color: $white;
+  }
+.container {
+    position: relative;
+    font-family: Arial;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    text-align: center;
+    background-color: black;
+    color: $white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    height: fit-content;
+    width: 30vw;
+  }
+.projectSection{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+ grid-gap: 2vh;
+}
+  .projectImg{
+    height: fit-content;
+    width: 100%;
+  }
+  progress{
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    width: 100%;
+  }
+  label{
+    text-align: center;
+    display: block;
+  }
 }

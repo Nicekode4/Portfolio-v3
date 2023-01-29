@@ -3,7 +3,7 @@ import React from 'react'
 function Img() {
   return (
     
-     <img src={require("../../Images/profil.jpg")} alt="" /> 
+     <img id='frontPageImg' src={require("../../Images/profil.jpg")} alt="" /> 
 
     
   )
