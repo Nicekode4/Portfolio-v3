@@ -1,17 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.906a5538.css",
-    "main.js": "/static/js/main.08968c8d.js",
+    "main.css": "/static/css/main.84dbd852.css",
+    "main.js": "/static/js/main.e1be1516.js",
+    "static/media/Pressemedie.png": "/static/media/Pressemedie.c5d10748bcae8aad603d.png",
+    "static/media/Dogvendespil.png": "/static/media/Dogvendespil.2b9bf4baecb5dc3c4ea5.png",
+    "static/media/Bandstock.png": "/static/media/Bandstock.f972a828dfb0f23031e5.png",
+    "static/media/Moviesite.png": "/static/media/Moviesite.784157f326f6cc07a744.png",
+    "static/media/Infoskærm.png": "/static/media/Infoskærm.37d28251abe69b809d43.png",
+    "static/media/Kennelfolager.png": "/static/media/Kennelfolager.ae585d451dcdb12db4d2.png",
+    "static/media/Dograting.png": "/static/media/Dograting.df54f0ada9a6cb912961.png",
+    "static/media/Anne-Marie.png": "/static/media/Anne-Marie.cb752b1289e30650b08b.png",
     "static/media/profil.jpg": "/static/media/profil.b2a186279cf603fa5334.jpg",
-    "static/media/img_nature_wide.jpg": "/static/media/img_nature_wide.9a89b58b101b58335acf.jpg",
+    "static/media/Pricegessr.png": "/static/media/Pricegessr.bc9b98d15ba57722e0f5.png",
+    "static/media/Mediazone.png": "/static/media/Mediazone.93e28227492cad488caa.png",
+    "static/media/Slots.png": "/static/media/Slots.437309872917174eb860.png",
+    "static/media/billede-kommer-snart.png": "/static/media/billede-kommer-snart.c86a4174d937b17bf35f.png",
+    "static/media/Kigop.png": "/static/media/Kigop.e33daa3cc9a5d0a6c2f4.png",
+    "static/media/Banko.png": "/static/media/Banko.7b2c1286abedaae94330.png",
+    "static/media/Deal-or-no-deal.png": "/static/media/Deal-or-no-deal.32b71fdac783a312f5f9.png",
+    "static/media/Fredag.png": "/static/media/Fredag.dcac418e6700f0201bff.png",
+    "static/media/Snake.png": "/static/media/Snake.568e7fa820abbbb30a0e.png",
     "static/media/25-08-2019-2.png": "/static/media/25-08-2019-2.ef5b4a66d35e3b0c9ef5.png",
+    "static/media/Calculator.png": "/static/media/Calculator.a9d6b5ddc51ba5f643a8.png",
+    "static/media/TheCigaretteDuet.png": "/static/media/TheCigaretteDuet.506bb682a94dc9c04273.png",
     "static/media/github.png": "/static/media/github.987334e9f782cc505f25.png",
     "index.html": "/index.html",
-    "main.906a5538.css.map": "/static/css/main.906a5538.css.map",
-    "main.08968c8d.js.map": "/static/js/main.08968c8d.js.map"
+    "main.84dbd852.css.map": "/static/css/main.84dbd852.css.map",
+    "main.e1be1516.js.map": "/static/js/main.e1be1516.js.map"
   },
   "entrypoints": [
-    "static/css/main.906a5538.css",
-    "static/js/main.08968c8d.js"
+    "static/css/main.84dbd852.css",
+    "static/js/main.e1be1516.js"
   ]
 }
