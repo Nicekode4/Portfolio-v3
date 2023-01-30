@@ -7,6 +7,7 @@ function MainComponent() {
     <section className='mainSection'>
         <div>
             <Content />
+            
         </div>
         <div>
           <Img />  
