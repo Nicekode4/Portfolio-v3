@@ -7,8 +7,8 @@ function Header() {
         <nav>
           <li><NavLink to="/">Forside</NavLink></li>
           <li><NavLink to="/projekter">Projekter</NavLink></li>
-          <li><NavLink to="/om-mig">Om mig</NavLink></li>
-          <li><NavLink to="/ydelser">Ydelser</NavLink></li>
+          {/* <li><NavLink to="/om-mig">Om mig</NavLink></li>
+          <li><NavLink to="/ydelser">Ydelser</NavLink></li> */}
         </nav>
     </header>
   )

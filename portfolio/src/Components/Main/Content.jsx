@@ -9,7 +9,7 @@ function Content() {
         <h5>Selvudlært webudwikler med <span>7 års</span> erfaring</h5>
 
         <div className='buttons'>
-            <a href="http://lel">Få et tilbud</a>
+            <a href="#">Få et tilbud</a>
             <NavLink to="/projekter">Projekter <span>⭷</span></NavLink>        
         </div>
         <div className='mainGrid'>

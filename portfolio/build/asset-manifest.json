@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.84dbd852.css",
-    "main.js": "./static/js/main.8c2d5441.js",
+    "main.css": "./static/css/main.72caf328.css",
+    "main.js": "./static/js/main.d8d8cd23.js",
     "static/media/Pressemedie.png": "./static/media/Pressemedie.c5d10748bcae8aad603d.png",
     "static/media/Dogvendespil.png": "./static/media/Dogvendespil.2b9bf4baecb5dc3c4ea5.png",
     "static/media/Bandstock.png": "./static/media/Bandstock.f972a828dfb0f23031e5.png",
@@ -25,11 +25,11 @@
     "static/media/TheCigaretteDuet.png": "./static/media/TheCigaretteDuet.506bb682a94dc9c04273.png",
     "static/media/github.png": "./static/media/github.987334e9f782cc505f25.png",
     "index.html": "./index.html",
-    "main.84dbd852.css.map": "./static/css/main.84dbd852.css.map",
-    "main.8c2d5441.js.map": "./static/js/main.8c2d5441.js.map"
+    "main.72caf328.css.map": "./static/css/main.72caf328.css.map",
+    "main.d8d8cd23.js.map": "./static/js/main.d8d8cd23.js.map"
   },
   "entrypoints": [
-    "static/css/main.84dbd852.css",
-    "static/js/main.8c2d5441.js"
+    "static/css/main.72caf328.css",
+    "static/js/main.d8d8cd23.js"
   ]
 }

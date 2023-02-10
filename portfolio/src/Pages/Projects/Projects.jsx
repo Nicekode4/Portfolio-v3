@@ -33,7 +33,7 @@ function Projects() {
   </div>
 </div>
 
-<a target="_blank" href=''><div className='container'>
+<a target="_blank" href='https://amth.dk'><div className='container'>
   <img className='projectImg' src={require("../../Images/Anne-Marie.png")} alt="Nature" />
   <div className='text-block'>
     <h4>Forfatter Anne-Marie Thomsen</h4>
