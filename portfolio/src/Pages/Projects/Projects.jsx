@@ -13,7 +13,7 @@ function Projects() {
   <img className='projectImg' src={require("../../Images/Kennelfolager.png")} alt="Nature" />
   <div className='text-block'>
     <h4>Kennel folager</h4>
-    <p>Beskrivelse kommer snart</p>
+    <p>En hjemmeside jeg lavede for en hunde kennel i Herning</p>
   </div>
 </div></a>
 
@@ -21,7 +21,7 @@ function Projects() {
   <img className='projectImg' src={require("../../Images/Pressemedie.png")} alt="Nature" />
   <div className='text-block'>
     <h4>Pressemedie</h4>
-    <p>Beskrivelse kommer snart</p>
+    <p>Denne hjemmeside lavede jeg for nogle amatør fotografter</p>
   </div>
 </div></a>
 
@@ -37,7 +37,7 @@ function Projects() {
   <img className='projectImg' src={require("../../Images/Anne-Marie.png")} alt="Nature" />
   <div className='text-block'>
     <h4>Forfatter Anne-Marie Thomsen</h4>
-    <p>Beskrivelse kommer snart</p>
+    <p>En hjemmeside for forfatteren Anne-Marie Thomsen</p>
   </div>
 </div></a>
 
@@ -50,7 +50,7 @@ function Projects() {
   <img className='projectImg' src={require("../../Images/Dogvendespil.png")} alt="Nature" />
   <div className='text-block'>
     <h4>Hunde vendespil</h4>
-    <p>Beskrivelse kommer snart</p>
+    <p>Et hunde vende spil</p>
   </div>
 </div></a>
 
@@ -58,7 +58,15 @@ function Projects() {
   <img className='projectImg' src={require("../../Images/Mediazone.png")} alt="Nature" />
   <div className='text-block'>
     <h4>Mediazone</h4>
-    <p>Beskrivelse kommer snart</p>
+    <p>En web app til medie afdelingen på Tech College</p>
+  </div>
+</div></a>
+
+<a target="_blank" href='https://meek-profiterole-12c287.netlify.app/'><div className='container'>
+  <img className='projectImg' src={require("../../Images/WindmillDashboard.png")} alt="Nature" />
+  <div className='text-block'>
+    <h4>Vindmølle oversigt</h4>
+    <p>En vindmølle oversigts side</p>
   </div>
 </div></a>
 
@@ -66,7 +74,7 @@ function Projects() {
   <img className='projectImg' src={require("../../Images/Moviesite.png")} alt="Nature" />
   <div className='text-block'>
     <h4>Movie City</h4>
-    <p>Beskrivelse kommer snart</p>
+    <p>En film og serie oversigt</p>
   </div>
 </div></a>
 
@@ -74,7 +82,7 @@ function Projects() {
   <img className='projectImg' src={require("../../Images/Fredag.png")} alt="Nature" />
   <div className='text-block'>
     <h4>Er det fredag?</h4>
-    <p>Beskrivelse kommer snart</p>
+    <p>En simpel side der fortæller dig om det er fredag</p>
   </div>
 </div></a>
 
@@ -82,7 +90,7 @@ function Projects() {
   <img className='projectImg' src={require("../../Images/Calculator.png")} alt="Nature" />
   <div className='text-block'>
     <h4>Lommeregneren</h4>
-    <p>Beskrivelse kommer snart</p>
+    <p>En simpel lommeregner</p>
   </div>
 </div></a>
 
@@ -90,7 +98,7 @@ function Projects() {
   <img className='projectImg' src={require("../../Images/Bandstock.png")} alt="Nature" />
   <div className='text-block'>
     <h4>Bandstock</h4>
-    <p>Beskrivelse kommer snart</p>
+    <p>Et online program for amatør festivallen "Mosstock"</p>
   </div>
 </div></a>
 
@@ -98,7 +106,7 @@ function Projects() {
   <img className='projectImg' src={require("../../Images/Dograting.png")} alt="Nature" />
   <div className='text-block'>
     <h4>Hunde vurdering</h4>
-    <p>Beskrivelse kommer snart</p>
+    <p>Hvilken hund er den sødeste?</p>
   </div>
 </div></a>
 
@@ -106,7 +114,7 @@ function Projects() {
   <img className='projectImg' src={require("../../Images/Kigop.png")} alt="Nature" />
   <div className='text-block'>
     <h4>Kig op</h4>
-    <p>Beskrivelse kommer snart</p>
+    <p>Viser tiden indtil en himmelsk begivenhed i den nærmeste fremtid. Når tiden udløber skal du blot "kigge op"</p>
   </div>
 </div></a>
 
@@ -114,7 +122,7 @@ function Projects() {
   <img className='projectImg' src={require("../../Images/Slots.png")} alt="Nature" />
   <div className='text-block'>
     <h4>Den enearmet tyveknægt</h4>
-    <p>Beskrivelse kommer snart</p>
+    <p>En enarmet tyveknægt med emojis</p>
   </div>
 </div></a>
 

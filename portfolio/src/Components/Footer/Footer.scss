@@ -60,12 +60,19 @@ img{
         display: grid;
         grid-template-columns: 1fr;
         margin-top: 10vh;
-        h3{
+        a{
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            h3{
             background-color: $blue;
             border: none;
             font-size: 25px;
             color: $white;
             padding: 1vh;
+            width: fit-content;
+            
+        }
         }
     
         article:first-of-type{
