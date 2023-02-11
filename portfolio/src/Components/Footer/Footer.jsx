@@ -13,6 +13,8 @@ function Footer() {
             <h4>API'er: <span>5</span></h4>
         </article>
         <div>
+        <a href="mailto:philip@kode4.dk">📧</a>
+        <a href="tel:+4522966016">☎️</a>
           <a href="https://github.com/Nicekode4" target="_blank"><img src={require("../../Images/github.png")} alt="Github" /></a>
           <a href='https://dk.linkedin.com/in/philip-thomsen-6b56b8188'><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" /></a>
         </div>
