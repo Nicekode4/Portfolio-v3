@@ -131,12 +131,12 @@ function Projects() {
     <h2>Work in progress</h2>
     <section className='projectSection'>
       
-    <a target="_blank" href='https://kode4.dk/projects/pricegessr/'><div className='container'>
+    <a target="_blank" href='https://helpful-kashata-4a2b26.netlify.app/'><div className='container'>
   <img className='projectImg' src={require("../../Images/Pricegessr.png")} alt="Nature" />
   <div className='text-block'>
     <h4>Pricegessr</h4>
     <p>Gæt om prisen på varen er over eller under</p>
-    <label htmlFor="Pro" >20%</label>
+    <label htmlFor="Pro" >70%</label>
     <progress max={100} value={20} name="pro" />
   </div>
 </div></a>
