@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.1fa4e9c7.css",
-    "main.js": "./static/js/main.7fc65de4.js",
+    "main.js": "./static/js/main.09bc9c8d.js",
     "static/media/Pressemedie.png": "./static/media/Pressemedie.c5d10748bcae8aad603d.png",
     "static/media/Dogvendespil.png": "./static/media/Dogvendespil.2b9bf4baecb5dc3c4ea5.png",
     "static/media/Bandstock.png": "./static/media/Bandstock.f972a828dfb0f23031e5.png",
@@ -13,7 +13,7 @@
     "static/media/profil2.jpg": "./static/media/profil2.97b152c2e1f5f6c3e371.jpg",
     "static/media/WindmillDashboard.png": "./static/media/WindmillDashboard.c540775c9715ff0eb26c.png",
     "static/media/profil.jpg": "./static/media/profil.b2a186279cf603fa5334.jpg",
-    "static/media/Pricegessr.png": "./static/media/Pricegessr.bc9b98d15ba57722e0f5.png",
+    "static/media/Pricegessr.png": "./static/media/Pricegessr.6574d52d6ba56b8871d4.png",
     "static/media/Mediazone.png": "./static/media/Mediazone.93e28227492cad488caa.png",
     "static/media/Slots.png": "./static/media/Slots.437309872917174eb860.png",
     "static/media/billede-kommer-snart.png": "./static/media/billede-kommer-snart.c86a4174d937b17bf35f.png",
@@ -28,10 +28,10 @@
     "static/media/github.png": "./static/media/github.987334e9f782cc505f25.png",
     "index.html": "./index.html",
     "main.1fa4e9c7.css.map": "./static/css/main.1fa4e9c7.css.map",
-    "main.7fc65de4.js.map": "./static/js/main.7fc65de4.js.map"
+    "main.09bc9c8d.js.map": "./static/js/main.09bc9c8d.js.map"
   },
   "entrypoints": [
     "static/css/main.1fa4e9c7.css",
-    "static/js/main.7fc65de4.js"
+    "static/js/main.09bc9c8d.js"
   ]
 }
