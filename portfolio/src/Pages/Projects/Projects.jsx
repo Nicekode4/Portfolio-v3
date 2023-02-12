@@ -137,7 +137,7 @@ function Projects() {
     <h4>Pricegessr</h4>
     <p>Gæt om prisen på varen er over eller under</p>
     <label htmlFor="Pro" >70%</label>
-    <progress max={100} value={20} name="pro" />
+    <progress max={100} value={70} name="pro" />
   </div>
 </div></a>
 
