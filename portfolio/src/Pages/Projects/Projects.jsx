@@ -62,7 +62,7 @@ function Projects() {
   </div>
 </div></a>
 
-<a target="_blank" href='https://meek-profiterole-12c287.netlify.app/'><div className='container'>
+<a target="_blank" href='https://xn--vindmlleprojektet-40b.eu/'><div className='container'>
   <img className='projectImg' src={require("../../Images/WindmillDashboard.png")} alt="Nature" />
   <div className='text-block'>
     <h4>Vindmølle oversigt</h4>
