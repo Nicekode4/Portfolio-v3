@@ -6,10 +6,9 @@ function Content() {
   return (
     <section>
         <h1>Hejsa! Jeg hedder Philip</h1>
-        <h5>Selvudlært webudwikler med <span>7 års</span> erfaring</h5>
+        <h5>Selvudlært webudwikler med papir og <span>omkring 7 års</span> erfaring</h5>
 
         <div className='buttons'>
-            <a href="#">Få et tilbud</a>
             <NavLink to="/projekter">Projekter <span>⭷</span></NavLink>        
         </div>
         <div className='mainGrid'>

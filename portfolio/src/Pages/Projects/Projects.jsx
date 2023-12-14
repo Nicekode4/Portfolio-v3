@@ -45,7 +45,39 @@ function Projects() {
 
     <h2>Fritid</h2>
     <section className='projectSection'>
+
+    <a target="_blank" href='https://thriving-heliotrope-d427a4.netlify.app/'><div className='container'>
+  <img className='projectImg' src={require("../../Images/affladsguiden.png")} alt="Nature" />
+  <div className='text-block'>
+    <h4>Affaldguiden</h4>
+    <p>En side om affaldsortering - Kun demo side</p>
+  </div>
+</div></a>
+
+    <a target="_blank" href='https://stats.hulijorden.dk/'><div className='container'>
+  <img className='projectImg' src={require("../../Images/hij_stats.png")} alt="Nature" />
+  <div className='text-block'>
+    <h4>Stats.hulijorden.dk</h4>
+    <p>En stats side for min minecraft server</p>
+  </div>
+</div></a>
+
+<a target="_blank" href='https://hulijorden.dk/'><div className='container'>
+  <img className='projectImg' src={require("../../Images/HulIJorden.png")} alt="Nature" />
+  <div className='text-block'>
+    <h4>Hul i jorden</h4>
+    <p>En hjemmeside til min minecraft server</p>
+  </div>
+</div></a>
       
+<a target="_blank" href='https://majestic-chimera-26af09.netlify.app/100001'><div className='container'>
+  <img className='projectImg' src={require("../../Images/billede-kommer-snart.png")} alt="Nature" />
+  <div className='text-block'>
+    <h4>Solhverv</h4>
+    <p>En solcelle oversigts side</p>
+  </div>
+</div></a>
+
     <a target="_blank" href='https://fastidious-cupcake-813ba1.netlify.app/'><div className='container'>
   <img className='projectImg' src={require("../../Images/Dogvendespil.png")} alt="Nature" />
   <div className='text-block'>
@@ -63,7 +95,7 @@ function Projects() {
 </div></a>
 
 <a target="_blank" href='https://xn--vindmlleprojektet-40b.eu/'><div className='container'>
-  <img className='projectImg' src={require("../../Images/WindmillDashboard.png")} alt="Nature" />
+  <img className='projectImg' src={require("../../Images/Vind.png")} alt="Nature" />
   <div className='text-block'>
     <h4>Vindmølle oversigt</h4>
     <p>En vindmølle oversigts side</p>
